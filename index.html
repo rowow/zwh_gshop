@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- 移动端viewport -->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <title>gshop</title>
+
+    <!-- 引入reset css -->
+    <link rel="stylesheet" href="/static/css/reset.css">
+
+    <!-- 引入Iconfont -->
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_518606_6676bmcalnrhehfr.css">
+
+    <!-- 引入fastclick插件 -->
+    <!-- 移动设备上的浏览器默认会在用户点击屏幕大约延迟300毫秒才会触发点击事件，
+      这是为了检查用户是否在做双击。为了能够立即响应用户的点击事件，才有了FastClick -->
+    <script src="https://as.alipayobjects.com/g/component/fastclick/1.0.6/fastclick.js"></script>
+    <script>
+      if ('addEventListener' in document) {
+          document.addEventListener('DOMContentLoaded', function() {
+            FastClick.attach(document.body);
+        }, false);
+      }
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
